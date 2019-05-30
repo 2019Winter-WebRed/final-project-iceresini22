@@ -1,0 +1,84 @@
+/*
+* Isabella Ceresini
+* May 30, 2019
+* Innovate Women Project
+*/
+
+/* The universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body attributes here */
+
+
+header{padding:7px;
+text-align: center;
+border-bottom: 7px solid green;
+background-color: lightgray;
+}
+
+
+
+body {
+    background-color: #deffe0;
+    width: 90%;
+    margin: auto;
+    border: 4px solid green;
+
+}
+
+h1 {
+    padding: 7px;
+}
+
+#sidebarA {
+    width: 17%;
+    float: left;
+    padding: 1em;
+}
+
+ul,li{list-style-position: inside;
+
+}
+
+main {
+    width: 60%;
+    float: left;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+}
+
+#sidebarB {
+    width: 17%;
+    float: right;
+    padding: 1em;
+}
+footer {
+    clear: both;
+    border-top: 1px solid green;
+    padding: 1px;
+    background-color: lightgray;
+}
+#footerUL {
+    margin-left: 15px;}
+
+p {
+    padding: 1em
+}
+
+#tennis {width:225px; height: 150px; float:left;
+margin: 1em; 
+border: 2px solid darkblue;}
+
+#sister {width: 225px; height: 150px; float:right;
+margin: 1em; 
+border: 2px solid darkblue;}
+
+a:link {
+    color: blue;
+    text-decoration: none;}
+a:hover, a:focus {
+    color: seagreen;
+    text-decoration: underline; font-size: 120%;} 
